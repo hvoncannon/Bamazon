@@ -44,7 +44,7 @@ function userPromptAndCheck(res) {
             connection.end();
         }
         else {
-            console.log("Item Out of Stock");
+            console.log("Not enough stock to complete order.");
             connection.end();
         }
     })
